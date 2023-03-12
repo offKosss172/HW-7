@@ -5,16 +5,16 @@ body{background: url('../img/backgr.png')  center center no-repeat  fixed;backgr
 a {text-decoration: none;color: #FFFFFF;}
 header{height: 6vh;width: 100%;background: rgba(0, 0, 0, 0.4);box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 display: flex;align-items: center;justify-content: space-between;}
-.logo-text{font-weight: 700;line-height: 22px;font-size: 22px;color: #FFFFFF;margin-left: 6%;}
+.logo-text{font-weight: 700;line-height: 22px;font-size: 22px;color: #FFFFFF;margin-left: 6%; cursor: pointer;}
 .logo-text:hover{font-weight: 700;line-height: 20px;font-size: 20px;color: #3CB878;transition: all 1s ease 0s;}
 .menu-nav{display: flex;gap: 25px;margin-right: 6%;list-style-type: none;}
 header .menu-nav p{color: #FFFFFF;font-size: 14px;border-left: 1px solid rgba(255, 255, 255, 0.6);padding-left: 25px;}
 header .menu-nav a:hover{color: #3CB878;transition: all 1s ease 0s;}
-.calendar-icon{width: 21px;height: 24px;background: url('../img/icon1.svg') no-repeat;}
+.calendar-icon{width: 21px;height: 24px;background: url('../img/icon1.svg') no-repeat;cursor: pointer;}
 .calendar-icon:hover{background: url('../img/icon1g.svg') no-repeat;transition: all 1s ease 0s;}
-.mail-icon{width: 23px;height: 23px;background: url('../img/icon2.svg');}
+.mail-icon{width: 23px;height: 23px;background: url('../img/icon2.svg');cursor: pointer;}
 .mail-icon:hover{background: url('../img/icon2g.svg');transition: all 1s ease 0s;}
-.compass-icon{width: 23px;height: 23px;background: url('../img/icon3.svg');}
+.compass-icon{width: 23px;height: 23px;background: url('../img/icon3.svg');cursor: pointer;}
 .compass-icon:hover{background: url('../img/icon3g.svg');transition: all 1s ease 0s;}
 
 form{
@@ -24,13 +24,13 @@ form{
     align-items: center;
     column-gap: 50px;
     height: 70vh;
-    width: 33vw;
+    width: 28vw;
     background-color: #FFFFFF;
     margin: 12vh auto;
     box-sizing: border-box;
 }
 .login-form-text{
-    width: 24vw;
+    width: 22vw;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
@@ -42,7 +42,7 @@ form{
     width: 18px;
     background-color: #3CB878;
     position: absolute;
-    left: -4.5vw;
+    left: -3vw;
 }
 .login-form-text p{
 font-size: 20px;
@@ -53,13 +53,14 @@ color: #434343;
 font-size: 14px;
 line-height: 14px;
 color: #3CB878;
+cursor: pointer;
 }
 .login-form-text a:hover{
     text-decoration: underline;
     transition: all 1s ease 0s;
 }
 form button{
-    width: 11.8vw;
+    width: 10.8vw;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -69,6 +70,7 @@ color: #FFFFFF;
 .facebook{
 background-color: #305DB8;
 position: relative;
+cursor: pointer;
 }
 .facebook::before{
     content: url(../img/fb.svg);
@@ -83,6 +85,7 @@ position: relative;
 .google-plus{
 background-color: #DF4A32;
 position: relative;
+cursor: pointer;
 }
 .google-plus:hover{
 background-color: #AB1F09;
@@ -95,7 +98,7 @@ transition: all 1s ease 0s;
     top: 15px; 
 }
 .text-or-line{
-    width: 24vw;
+    width: 22vw;
     height: 35px;
     position: relative;
     background-color: #FFFFFF;
@@ -114,13 +117,14 @@ background-color: #FFFFFF;
 
 }
 .input-login{
-    width: 24vw;
+    width: 22vw;
     height: 45px;
     border-radius: 5px;
     margin-bottom: 5px;
     padding-left: 20px;
     box-sizing: border-box;
     border: 1px solid #F2F2F2;
+    cursor: pointer;
 }
 .input-login:hover{
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
