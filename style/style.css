@@ -155,7 +155,7 @@ label a:hover{
     transition: all 1s ease 0s;
 }
 .input-checkbox{
-    width: 24vw;
+    width: 22vw;
     display: flex;
     margin-bottom: 10px;
 }
