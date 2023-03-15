@@ -7,7 +7,7 @@ header{height: 6vh;width: 100%;background: rgba(0, 0, 0, 0.4);box-shadow: 0px 4p
 display: flex;align-items: center;justify-content: space-between;}
 .logo-text{font-weight: 700;line-height: 22px;font-size: 22px;color: #FFFFFF;margin-left: 6%; cursor: pointer;}
 .logo-text:hover{font-weight: 700;line-height: 20px;font-size: 20px;color: #3CB878;transition: all 1s ease 0s;}
-.menu-nav{display: flex;gap: 25px;margin-right: 6%;list-style-type: none;}
+.menu-nav{display: flex;align-items: center;gap: 25px;margin-right: 6%;list-style-type: none;}
 header .menu-nav p{color: #FFFFFF;font-size: 14px;border-left: 1px solid rgba(255, 255, 255, 0.6);padding-left: 25px;}
 header .menu-nav a:hover{color: #3CB878;transition: all 1s ease 0s;}
 .calendar-icon{width: 21px;height: 24px;background: url('../img/icon1.svg') no-repeat;cursor: pointer;}
